@@ -1,0 +1,16 @@
+.Genres{
+    min-height: calc(100vh-70px);
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.39);
+    background-color: #f1ece111;
+}
+.Genres h2{
+    margin: 1rem;
+}
+.cardsSongs{
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+}

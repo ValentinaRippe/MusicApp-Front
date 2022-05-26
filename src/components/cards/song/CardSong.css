@@ -1,0 +1,66 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    background: linear-gradient(3deg, #50566800 0%, #3a353f 50%, #3a353f00 100%);
+    min-width: 45%;
+    max-width: 45%;
+    height: 220px;
+    margin:5px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+.card:hover{
+    box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.39);
+    border: 0.5px solid #f1ece150;
+    cursor: pointer;
+}
+.containerImg{
+    position: relative;
+    width: 90%;
+    margin: 5px;
+}
+.imgMus {
+    width: 100px ;
+    position: absolute;
+    mix-blend-mode: screen;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    margin: 1rem;
+    z-index: 1;
+}
+.containerImg .img{
+    min-width: 100%;
+    border-radius: 15px;
+}
+.card p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 ;
+    color: #f1ece1;
+    font-size: 14px;
+    max-width: 70%;
+}
+.nameSongs{
+    font-weight: bolder;
+}
+
+@media (min-width: 768px){
+    .card{
+        margin: 1rem;
+        min-width: 200px;
+        padding-bottom: 2.5rem ;
+    }
+    .card p{
+        font-size: 13px;
+    }
+}
+@media (min-width: 1440px){
+    .card{
+        min-width: 10%;
+        max-width: 10%;
+    }
+}

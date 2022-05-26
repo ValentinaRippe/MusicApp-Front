@@ -1,0 +1,22 @@
+.Footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem;
+    background-color: #50566883;
+    outline: rgb(33, 37, 41) dashed 0;
+    box-shadow: rgba(9, 5, 29, 0.173) 0 10px 10px 0;
+    backdrop-filter: blur(15px);
+    border-radius: 15px 0;
+}
+.textFooter{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 14px;
+}
+.textFooter p{
+    margin: 0;
+    padding: 0;
+}

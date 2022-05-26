@@ -1,0 +1,60 @@
+.header {
+    height: 35px;
+    background-attachment: scroll;
+    padding: 3.9px 26px;
+    transition: all 0.3s ease-out 0s;
+    text-overflow: clip;
+    color: #f1ece1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #50566883;
+    outline: rgb(33, 37, 41) dashed 0;
+    box-shadow: rgba(9, 5, 29, 0.173) 0 10px 10px 0;
+    backdrop-filter: blur(15px);
+    border-radius: 15px 0;
+}
+
+.logo{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.navBar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar li {
+    padding: .2rem 1rem;
+}
+
+.navBar a {
+    font-size: 1.2rem;
+    color: #f1ece1;
+    text-decoration: none;
+    font-size: medium;
+    transition: all 0.35s ease-out 0s;
+}
+.navBar a.active{
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .header {
+        backdrop-filter: none;
+        padding: 10px 20px;
+    }
+
+    .container {
+        justify-content: space-between;
+    }
+}
