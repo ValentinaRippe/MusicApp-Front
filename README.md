@@ -3,7 +3,7 @@
 This music App has the function of displaying information about songs, artists, and other information.
 
 ## Usage
-Open The pomodoro's app in your local enviroment or in the [Official Deployment.]
+Open The pomodoro's app in your local enviroment or in the [Official Deployment.](https://musicapp-p.netlify.app/)
 1. Home: Search
 2. Genres: Songs by genre
 3. Detail Song and artist
